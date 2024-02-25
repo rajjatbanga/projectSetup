@@ -54,7 +54,7 @@ public class LoginPageTest extends TestBase{
 	@AfterMethod
 	public void browserQuit() throws InterruptedException {
 		Thread.sleep(2000);
-		System.out.println("");
+		
 		driver.quit();
 	}
 
