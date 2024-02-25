@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+    <listeners>
+        <listener class-name="com.qa.practice.Util.TestNGLitners"/>
+    </listeners>
+    <test thread-count="5" name="Home Loan">
+        <classes>
+				<class name="com.practice.qa.Test.LoginPageTest">
+	
+        
+            </class>
+        </classes>
+    </test>
+</suite>
